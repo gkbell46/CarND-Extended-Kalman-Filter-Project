@@ -34,6 +34,8 @@ public:
 private:
   // check whether the tracking toolbox was initiallized or not (first measurement)
   bool is_initialized_;
+  
+  //Noise components in Q_
   float noise_ax;
   float noise_ay;
   
